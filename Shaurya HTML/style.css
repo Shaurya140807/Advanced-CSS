@@ -1,0 +1,31 @@
+h1{
+    color: #934af6;
+    padding:30px
+    
+}
+h2{
+    color:#ff564a;
+}
+a:link{
+    color:#ff564a;
+    
+}
+a:visited{
+    color:#934af6;
+}
+.item{
+    position: relative;
+}
+.item p{
+position: absolute;
+left:50%;
+top:50%;
+transform: translate(-50%,-50%);
+opacity: 0;
+}
+.item:hover p{
+    opacity: 1;
+}
+.item:hover img{
+    opacity: 0.33;
+}
